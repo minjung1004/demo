@@ -9,4 +9,5 @@ class DemoTest(private val application: EmbeddedApplication<*>): StringSpec({
     "test the server is running" {
         assert(application.isRunning)
     }
+
 })
