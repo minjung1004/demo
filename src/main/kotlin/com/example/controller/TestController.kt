@@ -3,6 +3,7 @@ package com.example.controller
 import com.example.model.UserRequest
 import com.example.model.UserResponse
 import io.micronaut.http.annotation.*
+import io.micronaut.http.annotation.Controller
 
 @Controller("/test")
 class TestController {
